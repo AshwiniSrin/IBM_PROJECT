@@ -17,3 +17,8 @@ spec:
         image: ashwini9535/backend:latest
         ports:
         - containerPort: 5000
+        - name: backend
+          image: ashwini9535/backend-app:v1.0
+          ports:
+            - containerPort: 5000
+          
